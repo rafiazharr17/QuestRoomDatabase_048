@@ -1,6 +1,6 @@
 1. Tampilan Home
    ![halaman home](https://github.com/user-attachments/assets/f8155914-60ba-4f1b-9093-ed88b7bb9a19)
-2. Tampilan validasi saat input data
+2. Tampilan validasi saat input/update data
    ![validasi input data](https://github.com/user-attachments/assets/b91609f8-ac77-406a-bcb3-169febba6abd)
 3. Tampilan input data
    ![tampilan input data](https://github.com/user-attachments/assets/5353652a-5c29-4c63-9498-2af4ff7c7362)
