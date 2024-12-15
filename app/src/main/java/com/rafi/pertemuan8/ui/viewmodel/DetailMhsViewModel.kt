@@ -1,5 +1,6 @@
 package com.rafi.pertemuan8.ui.viewmodel
 
+import com.rafi.pertemuan8.data.entity.Mahasiswa
 
 
 data class DetailUiState(
@@ -13,4 +14,16 @@ data class DetailUiState(
 
     val isUiEventNotEmpty: Boolean
         get() = detailUiEvent != MahasiswaEvent()
+}
+
+//Memindahkan data dari entity ke ui
+fun Mahasiswa.toDetailUiEvent(): MahasiswaEvent {
+    return MahasiswaEvent(
+        nim = nim,
+        nama = nama,
+        jenisKelamin = jenisKelamin,
+        alamat = alamat,
+        kelas = kelas,
+        angkatan = angkatan
+    )
 }
