@@ -51,7 +51,7 @@ fun DetailMhsView (
     Scaffold (
         topBar = {
             TopAppBar(
-                judul = "Daftar Mahasiswa",
+                judul = "Detail Mahasiswa",
                 showBackButton = false,
                 onBack = { },
                 modifier = modifier
